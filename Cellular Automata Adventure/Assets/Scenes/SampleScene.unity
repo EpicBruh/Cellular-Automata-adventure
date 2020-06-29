@@ -131,6 +131,7 @@ GameObject:
   m_Component:
   - component: {fileID: 401010945}
   - component: {fileID: 401010946}
+  - component: {fileID: 401010947}
   m_Layer: 0
   m_Name: TestObjectForScripts
   m_TagString: Untagged
@@ -159,7 +160,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 401010944}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dc3bb2068a83c854bb2347962c2859e2, type: 3}
   m_Name: 
@@ -168,6 +169,19 @@ MonoBehaviour:
   ruleset: 
   number: 105
   randomRule: 0
+--- !u!114 &401010947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 401010944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4fba76cdc2033342a7583d96081bdf4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: fdbebddced70aaa4483f2e341ee5ad05, type: 3}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -221,7 +235,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 10
+  orthographic size: 15
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
